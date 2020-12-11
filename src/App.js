@@ -4,7 +4,6 @@ import styles from './App.module.css'
 import { fetchData } from './api/index'
 import coronaImage from './imgs/covid.jpeg'
 
-
 class App extends React.Component{
 
   state = {
