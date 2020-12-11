@@ -1,3 +1,12 @@
+## Covid 19 tracker
+
+<img src = "img/ss0.png"></img>
+<img src = "img/ss1.png"></img>
+
+### API 
+
+https://covid19.mathdro.id/api
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
