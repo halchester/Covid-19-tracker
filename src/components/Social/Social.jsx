@@ -11,10 +11,10 @@ const Social = () => {
       <a href = 'https://github.com/halchester/Covid-19-tracker/' className = {cx(styles.github,styles.social)}>
         <FontAwesomeIcon icon ={faGithub} size = "2x"></FontAwesomeIcon>
       </a>
-      <a href = 'https://github.com/halchester/Covid-19-tracker/' className = {cx(styles.facebook,styles.social)}>
+      <a href = 'https://www.facebook.com/chester.ll.hal' className = {cx(styles.facebook,styles.social)}>
         <FontAwesomeIcon icon ={faFacebook} size = "2x"></FontAwesomeIcon>
       </a>
-      <a href = 'https://github.com/halchester/Covid-19-tracker/' className = {cx(styles.twitter,styles.social)}>
+      <a href = 'https://twitter.com/halChester02' className = {cx(styles.twitter,styles.social)}>
         <FontAwesomeIcon icon ={faTwitter} size = "2x"></FontAwesomeIcon>
       </a>
     </div>
