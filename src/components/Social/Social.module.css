@@ -1,0 +1,39 @@
+.socialContainer {
+  width : 100%;
+  margin-top: 5%;
+  background: #eee;
+  padding: 25px 25px;
+  padding-top: 0;
+}
+.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.socialHeader{
+  font-size : 32px;
+  font-weight: 500;
+  font-style: italic;
+  font-family:'Courier New', Courier, monospace;
+  color : #333;
+  justify-content: center;
+  align-items: center;
+}
+.social:hover {
+  transform: translateY(-5px);
+}
+
+
+.facebook {
+  color: #1d63f8;
+}
+
+.twitter {
+  color: #5cacee;
+}
+
+.github {
+  color: black;
+}

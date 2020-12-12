@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cards ,Charts,CountryPicker } from './components'
+import { Cards ,Charts,CountryPicker,Social } from './components'
 import styles from './App.module.css'
 import { fetchData } from './api/index'
 import coronaImage from './imgs/covid.jpeg'
@@ -13,7 +13,6 @@ class App extends React.Component{
 
   async componentDidMount  (){
     const fetchedData = await fetchData();
-
     this.setState({data : fetchedData})
   }
 
@@ -31,6 +30,7 @@ class App extends React.Component{
         <Cards data = {this.state.data}></Cards>
         <CountryPicker handleCountryChange = {this.handleCountryChange}></CountryPicker>
         <Charts data = {this.state.data} country = {this.state.country}></Charts>
+        <Social></Social>
       </div>
     )
   }
